@@ -3,33 +3,117 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		30BE52C12FCCEA9800ED4307 /* EmergencyInfoCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52772FCCEA9800ED4307 /* EmergencyInfoCatalog.swift */; };
+		30BE52C22FCCEA9800ED4307 /* PackingTemplateCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52782FCCEA9800ED4307 /* PackingTemplateCatalog.swift */; };
+		30BE52C32FCCEA9800ED4307 /* TimeZoneCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52792FCCEA9800ED4307 /* TimeZoneCatalog.swift */; };
+		30BE52C42FCCEA9800ED4307 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE527B2FCCEA9800ED4307 /* Achievement.swift */; };
+		30BE52C52FCCEA9800ED4307 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE527C2FCCEA9800ED4307 /* ChecklistItem.swift */; };
+		30BE52C62FCCEA9800ED4307 /* CurrencyRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE527D2FCCEA9800ED4307 /* CurrencyRate.swift */; };
+		30BE52C72FCCEA9800ED4307 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE527E2FCCEA9800ED4307 /* Destination.swift */; };
+		30BE52C82FCCEA9800ED4307 /* TripBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE527F2FCCEA9800ED4307 /* TripBundle.swift */; };
+		30BE52C92FCCEA9800ED4307 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52812FCCEA9800ED4307 /* AppStorage.swift */; };
+		30BE52CA2FCCEA9800ED4307 /* TripExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52832FCCEA9800ED4307 /* TripExportService.swift */; };
+		30BE52CB2FCCEA9800ED4307 /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52852FCCEA9800ED4307 /* AppExternalLink.swift */; };
+		30BE52CC2FCCEA9800ED4307 /* FeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52862FCCEA9800ED4307 /* FeedbackManager.swift */; };
+		30BE52CD2FCCEA9800ED4307 /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52872FCCEA9800ED4307 /* NotificationNames.swift */; };
+		30BE52CE2FCCEA9800ED4307 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52882FCCEA9800ED4307 /* ShakeEffect.swift */; };
+		30BE52CF2FCCEA9800ED4307 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE528B2FCCEA9800ED4307 /* AchievementsView.swift */; };
+		30BE52D02FCCEA9800ED4307 /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE528D2FCCEA9800ED4307 /* ChecklistView.swift */; };
+		30BE52D12FCCEA9800ED4307 /* EssentialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE528F2FCCEA9800ED4307 /* EssentialsView.swift */; };
+		30BE52D22FCCEA9800ED4307 /* EssentialsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52902FCCEA9800ED4307 /* EssentialsViewModel.swift */; };
+		30BE52D32FCCEA9800ED4307 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52922FCCEA9800ED4307 /* HomeView.swift */; };
+		30BE52D42FCCEA9800ED4307 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52932FCCEA9800ED4307 /* HomeViewModel.swift */; };
+		30BE52D52FCCEA9800ED4307 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52952FCCEA9800ED4307 /* OnboardingView.swift */; };
+		30BE52D62FCCEA9800ED4307 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52972FCCEA9800ED4307 /* SettingsView.swift */; };
+		30BE52D72FCCEA9800ED4307 /* EmergencyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52992FCCEA9800ED4307 /* EmergencyInfoView.swift */; };
+		30BE52D82FCCEA9800ED4307 /* TravelToolsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE529A2FCCEA9800ED4307 /* TravelToolsContainerView.swift */; };
+		30BE52D92FCCEA9800ED4307 /* UnitConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE529B2FCCEA9800ED4307 /* UnitConverterView.swift */; };
+		30BE52DA2FCCEA9800ED4307 /* TripBudgetSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE529D2FCCEA9800ED4307 /* TripBudgetSection.swift */; };
+		30BE52DB2FCCEA9800ED4307 /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE529E2FCCEA9800ED4307 /* TripDetailView.swift */; };
+		30BE52DC2FCCEA9800ED4307 /* TripDocumentsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE529F2FCCEA9800ED4307 /* TripDocumentsSection.swift */; };
+		30BE52DD2FCCEA9800ED4307 /* TripItinerarySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52A02FCCEA9800ED4307 /* TripItinerarySection.swift */; };
+		30BE52DE2FCCEA9800ED4307 /* TripPackingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52A12FCCEA9800ED4307 /* TripPackingSection.swift */; };
+		30BE52DF2FCCEA9800ED4307 /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52A32FCCEA9800ED4307 /* WishlistView.swift */; };
+		30BE52E02FCCEA9800ED4307 /* WishlistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52A42FCCEA9800ED4307 /* WishlistViewModel.swift */; };
+		30BE52E12FCCEA9800ED4307 /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52A92FCCEA9800ED4307 /* CustomCells.swift */; };
+		30BE52E22FCCEA9800ED4307 /* AppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52AB2FCCEA9800ED4307 /* AppCard.swift */; };
+		30BE52E32FCCEA9800ED4307 /* AppDepthStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52AC2FCCEA9800ED4307 /* AppDepthStyle.swift */; };
+		30BE52E42FCCEA9800ED4307 /* AchievementBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52AE2FCCEA9800ED4307 /* AchievementBannerView.swift */; };
+		30BE52E52FCCEA9800ED4307 /* AppBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52AF2FCCEA9800ED4307 /* AppBackgroundView.swift */; };
+		30BE52E62FCCEA9800ED4307 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52B02FCCEA9800ED4307 /* CustomTabBar.swift */; };
+		30BE52E72FCCEA9800ED4307 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52B12FCCEA9800ED4307 /* PrimaryButton.swift */; };
+		30BE52E82FCCEA9800ED4307 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52B22FCCEA9800ED4307 /* ShareSheet.swift */; };
+		30BE52E92FCCEA9800ED4307 /* SuccessOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52B32FCCEA9800ED4307 /* SuccessOverlay.swift */; };
+		30BE52EA2FCCEA9800ED4307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52B62FCCEA9800ED4307 /* AppDelegate.swift */; };
+		30BE52EB2FCCEA9800ED4307 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52B82FCCEA9800ED4307 /* ContentView.swift */; };
+		30BE52EC2FCCEA9800ED4307 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52BE2FCCEA9800ED4307 /* SceneDelegate.swift */; };
+		30BE52ED2FCCEA9800ED4307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE52BF2FCCEA9800ED4307 /* ViewController.swift */; };
+		30BE52EE2FCCEA9800ED4307 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 30BE52A72FCCEA9800ED4307 /* privacy_policy.md */; };
+		30BE52EF2FCCEA9800ED4307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BE52B72FCCEA9800ED4307 /* Assets.xcassets */; };
+		30BE52F12FCCEA9800ED4307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BE52BB2FCCEA9800ED4307 /* LaunchScreen.storyboard */; };
+		30BE52F22FCCEA9800ED4307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BE52BD2FCCEA9800ED4307 /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30BE51222FCCE0B900ED4307 /* 197MirelithWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 197MirelithWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BE52772FCCEA9800ED4307 /* EmergencyInfoCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyInfoCatalog.swift; sourceTree = "<group>"; };
+		30BE52782FCCEA9800ED4307 /* PackingTemplateCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingTemplateCatalog.swift; sourceTree = "<group>"; };
+		30BE52792FCCEA9800ED4307 /* TimeZoneCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneCatalog.swift; sourceTree = "<group>"; };
+		30BE527B2FCCEA9800ED4307 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		30BE527C2FCCEA9800ED4307 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		30BE527D2FCCEA9800ED4307 /* CurrencyRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRate.swift; sourceTree = "<group>"; };
+		30BE527E2FCCEA9800ED4307 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		30BE527F2FCCEA9800ED4307 /* TripBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripBundle.swift; sourceTree = "<group>"; };
+		30BE52812FCCEA9800ED4307 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		30BE52832FCCEA9800ED4307 /* TripExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripExportService.swift; sourceTree = "<group>"; };
+		30BE52852FCCEA9800ED4307 /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		30BE52862FCCEA9800ED4307 /* FeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
+		30BE52872FCCEA9800ED4307 /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		30BE52882FCCEA9800ED4307 /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		30BE528B2FCCEA9800ED4307 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		30BE528D2FCCEA9800ED4307 /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistView.swift; sourceTree = "<group>"; };
+		30BE528F2FCCEA9800ED4307 /* EssentialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialsView.swift; sourceTree = "<group>"; };
+		30BE52902FCCEA9800ED4307 /* EssentialsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialsViewModel.swift; sourceTree = "<group>"; };
+		30BE52922FCCEA9800ED4307 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		30BE52932FCCEA9800ED4307 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		30BE52952FCCEA9800ED4307 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		30BE52972FCCEA9800ED4307 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		30BE52992FCCEA9800ED4307 /* EmergencyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyInfoView.swift; sourceTree = "<group>"; };
+		30BE529A2FCCEA9800ED4307 /* TravelToolsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelToolsContainerView.swift; sourceTree = "<group>"; };
+		30BE529B2FCCEA9800ED4307 /* UnitConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterView.swift; sourceTree = "<group>"; };
+		30BE529D2FCCEA9800ED4307 /* TripBudgetSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripBudgetSection.swift; sourceTree = "<group>"; };
+		30BE529E2FCCEA9800ED4307 /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		30BE529F2FCCEA9800ED4307 /* TripDocumentsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDocumentsSection.swift; sourceTree = "<group>"; };
+		30BE52A02FCCEA9800ED4307 /* TripItinerarySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripItinerarySection.swift; sourceTree = "<group>"; };
+		30BE52A12FCCEA9800ED4307 /* TripPackingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPackingSection.swift; sourceTree = "<group>"; };
+		30BE52A32FCCEA9800ED4307 /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
+		30BE52A42FCCEA9800ED4307 /* WishlistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewModel.swift; sourceTree = "<group>"; };
+		30BE52A72FCCEA9800ED4307 /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		30BE52A92FCCEA9800ED4307 /* CustomCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		30BE52AB2FCCEA9800ED4307 /* AppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCard.swift; sourceTree = "<group>"; };
+		30BE52AC2FCCEA9800ED4307 /* AppDepthStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDepthStyle.swift; sourceTree = "<group>"; };
+		30BE52AE2FCCEA9800ED4307 /* AchievementBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBannerView.swift; sourceTree = "<group>"; };
+		30BE52AF2FCCEA9800ED4307 /* AppBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackgroundView.swift; sourceTree = "<group>"; };
+		30BE52B02FCCEA9800ED4307 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		30BE52B12FCCEA9800ED4307 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		30BE52B22FCCEA9800ED4307 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		30BE52B32FCCEA9800ED4307 /* SuccessOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessOverlay.swift; sourceTree = "<group>"; };
+		30BE52B62FCCEA9800ED4307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30BE52B72FCCEA9800ED4307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30BE52B82FCCEA9800ED4307 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30BE52B92FCCEA9800ED4307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30BE52BA2FCCEA9800ED4307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30BE52BC2FCCEA9800ED4307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30BE52BE2FCCEA9800ED4307 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30BE52BF2FCCEA9800ED4307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A21ABBB2790311ABB29A594 /* Pods-197MirelithWave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-197MirelithWave.debug.xcconfig"; path = "Target Support Files/Pods-197MirelithWave/Pods-197MirelithWave.debug.xcconfig"; sourceTree = "<group>"; };
+		42075B692B598968D2EFE201 /* Pods_197MirelithWave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_197MirelithWave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		488A353B176D06C3718A3F3E /* Pods-197MirelithWave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-197MirelithWave.release.xcconfig"; path = "Target Support Files/Pods-197MirelithWave/Pods-197MirelithWave.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		30BE51342FCCE0BB00ED4307 /* Exceptions for "197MirelithWave" folder in "197MirelithWave" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 30BE51212FCCE0B900ED4307 /* 197MirelithWave */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		30BE51242FCCE0B900ED4307 /* 197MirelithWave */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				30BE51342FCCE0BB00ED4307 /* Exceptions for "197MirelithWave" folder in "197MirelithWave" target */,
-			);
-			path = 197MirelithWave;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30BE511F2FCCE0B900ED4307 /* Frameworks */ = {
@@ -45,8 +129,10 @@
 		30BE51192FCCE0B900ED4307 = {
 			isa = PBXGroup;
 			children = (
-				30BE51242FCCE0B900ED4307 /* 197MirelithWave */,
+				30BE52C02FCCEA9800ED4307 /* 197MirelithWave */,
 				30BE51232FCCE0B900ED4307 /* Products */,
+				AEA234C6771563DDAA437CE0 /* Pods */,
+				BDE19B70F399023BDD435331 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +144,248 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		30BE527A2FCCEA9800ED4307 /* Catalogs */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52772FCCEA9800ED4307 /* EmergencyInfoCatalog.swift */,
+				30BE52782FCCEA9800ED4307 /* PackingTemplateCatalog.swift */,
+				30BE52792FCCEA9800ED4307 /* TimeZoneCatalog.swift */,
+			);
+			path = Catalogs;
+			sourceTree = "<group>";
+		};
+		30BE52802FCCEA9800ED4307 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30BE527B2FCCEA9800ED4307 /* Achievement.swift */,
+				30BE527C2FCCEA9800ED4307 /* ChecklistItem.swift */,
+				30BE527D2FCCEA9800ED4307 /* CurrencyRate.swift */,
+				30BE527E2FCCEA9800ED4307 /* Destination.swift */,
+				30BE527F2FCCEA9800ED4307 /* TripBundle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30BE52822FCCEA9800ED4307 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				30BE527A2FCCEA9800ED4307 /* Catalogs */,
+				30BE52802FCCEA9800ED4307 /* Models */,
+				30BE52812FCCEA9800ED4307 /* AppStorage.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		30BE52842FCCEA9800ED4307 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52832FCCEA9800ED4307 /* TripExportService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		30BE52892FCCEA9800ED4307 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52852FCCEA9800ED4307 /* AppExternalLink.swift */,
+				30BE52862FCCEA9800ED4307 /* FeedbackManager.swift */,
+				30BE52872FCCEA9800ED4307 /* NotificationNames.swift */,
+				30BE52882FCCEA9800ED4307 /* ShakeEffect.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		30BE528A2FCCEA9800ED4307 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52822FCCEA9800ED4307 /* Data */,
+				30BE52842FCCEA9800ED4307 /* Services */,
+				30BE52892FCCEA9800ED4307 /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		30BE528C2FCCEA9800ED4307 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				30BE528B2FCCEA9800ED4307 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		30BE528E2FCCEA9800ED4307 /* Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				30BE528D2FCCEA9800ED4307 /* ChecklistView.swift */,
+			);
+			path = Checklist;
+			sourceTree = "<group>";
+		};
+		30BE52912FCCEA9800ED4307 /* Essentials */ = {
+			isa = PBXGroup;
+			children = (
+				30BE528F2FCCEA9800ED4307 /* EssentialsView.swift */,
+				30BE52902FCCEA9800ED4307 /* EssentialsViewModel.swift */,
+			);
+			path = Essentials;
+			sourceTree = "<group>";
+		};
+		30BE52942FCCEA9800ED4307 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52922FCCEA9800ED4307 /* HomeView.swift */,
+				30BE52932FCCEA9800ED4307 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30BE52962FCCEA9800ED4307 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52952FCCEA9800ED4307 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		30BE52982FCCEA9800ED4307 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52972FCCEA9800ED4307 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		30BE529C2FCCEA9800ED4307 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52992FCCEA9800ED4307 /* EmergencyInfoView.swift */,
+				30BE529A2FCCEA9800ED4307 /* TravelToolsContainerView.swift */,
+				30BE529B2FCCEA9800ED4307 /* UnitConverterView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		30BE52A22FCCEA9800ED4307 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				30BE529D2FCCEA9800ED4307 /* TripBudgetSection.swift */,
+				30BE529E2FCCEA9800ED4307 /* TripDetailView.swift */,
+				30BE529F2FCCEA9800ED4307 /* TripDocumentsSection.swift */,
+				30BE52A02FCCEA9800ED4307 /* TripItinerarySection.swift */,
+				30BE52A12FCCEA9800ED4307 /* TripPackingSection.swift */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		30BE52A52FCCEA9800ED4307 /* Wishlist */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52A32FCCEA9800ED4307 /* WishlistView.swift */,
+				30BE52A42FCCEA9800ED4307 /* WishlistViewModel.swift */,
+			);
+			path = Wishlist;
+			sourceTree = "<group>";
+		};
+		30BE52A62FCCEA9800ED4307 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				30BE528C2FCCEA9800ED4307 /* Achievements */,
+				30BE528E2FCCEA9800ED4307 /* Checklist */,
+				30BE52912FCCEA9800ED4307 /* Essentials */,
+				30BE52942FCCEA9800ED4307 /* Home */,
+				30BE52962FCCEA9800ED4307 /* Onboarding */,
+				30BE52982FCCEA9800ED4307 /* Settings */,
+				30BE529C2FCCEA9800ED4307 /* Tools */,
+				30BE52A22FCCEA9800ED4307 /* Trip */,
+				30BE52A52FCCEA9800ED4307 /* Wishlist */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		30BE52A82FCCEA9800ED4307 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52A72FCCEA9800ED4307 /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		30BE52AA2FCCEA9800ED4307 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52A92FCCEA9800ED4307 /* CustomCells.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		30BE52AD2FCCEA9800ED4307 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52AB2FCCEA9800ED4307 /* AppCard.swift */,
+				30BE52AC2FCCEA9800ED4307 /* AppDepthStyle.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		30BE52B42FCCEA9800ED4307 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52AA2FCCEA9800ED4307 /* Cells */,
+				30BE52AD2FCCEA9800ED4307 /* Design */,
+				30BE52AE2FCCEA9800ED4307 /* AchievementBannerView.swift */,
+				30BE52AF2FCCEA9800ED4307 /* AppBackgroundView.swift */,
+				30BE52B02FCCEA9800ED4307 /* CustomTabBar.swift */,
+				30BE52B12FCCEA9800ED4307 /* PrimaryButton.swift */,
+				30BE52B22FCCEA9800ED4307 /* ShareSheet.swift */,
+				30BE52B32FCCEA9800ED4307 /* SuccessOverlay.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30BE52B52FCCEA9800ED4307 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				30BE52B42FCCEA9800ED4307 /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		30BE52C02FCCEA9800ED4307 /* 197MirelithWave */ = {
+			isa = PBXGroup;
+			children = (
+				30BE528A2FCCEA9800ED4307 /* Core */,
+				30BE52A62FCCEA9800ED4307 /* Features */,
+				30BE52A82FCCEA9800ED4307 /* Resources */,
+				30BE52B52FCCEA9800ED4307 /* UI */,
+				30BE52B62FCCEA9800ED4307 /* AppDelegate.swift */,
+				30BE52B72FCCEA9800ED4307 /* Assets.xcassets */,
+				30BE52B82FCCEA9800ED4307 /* ContentView.swift */,
+				30BE52B92FCCEA9800ED4307 /* Info.plist */,
+				30BE52BB2FCCEA9800ED4307 /* LaunchScreen.storyboard */,
+				30BE52BD2FCCEA9800ED4307 /* Main.storyboard */,
+				30BE52BE2FCCEA9800ED4307 /* SceneDelegate.swift */,
+				30BE52BF2FCCEA9800ED4307 /* ViewController.swift */,
+			);
+			path = 197MirelithWave;
+			sourceTree = "<group>";
+		};
+		AEA234C6771563DDAA437CE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A21ABBB2790311ABB29A594 /* Pods-197MirelithWave.debug.xcconfig */,
+				488A353B176D06C3718A3F3E /* Pods-197MirelithWave.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BDE19B70F399023BDD435331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42075B692B598968D2EFE201 /* Pods_197MirelithWave.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +393,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30BE51352FCCE0BB00ED4307 /* Build configuration list for PBXNativeTarget "197MirelithWave" */;
 			buildPhases = (
+				671DB1B6F49595FF2A281C8D /* [CP] Check Pods Manifest.lock */,
 				30BE511E2FCCE0B900ED4307 /* Sources */,
 				30BE511F2FCCE0B900ED4307 /* Frameworks */,
 				30BE51202FCCE0B900ED4307 /* Resources */,
@@ -73,12 +402,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				30BE51242FCCE0B900ED4307 /* 197MirelithWave */,
-			);
 			name = 197MirelithWave;
-			packageProductDependencies = (
-			);
 			productName = 197MirelithWave;
 			productReference = 30BE51222FCCE0B900ED4307 /* 197MirelithWave.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +423,7 @@
 				};
 			};
 			buildConfigurationList = 30BE511D2FCCE0B900ED4307 /* Build configuration list for PBXProject "197MirelithWave" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +431,6 @@
 				Base,
 			);
 			mainGroup = 30BE51192FCCE0B900ED4307;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 30BE51232FCCE0B900ED4307 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +445,118 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BE52EE2FCCEA9800ED4307 /* privacy_policy.md in Resources */,
+				30BE52EF2FCCEA9800ED4307 /* Assets.xcassets in Resources */,
+				30BE52F12FCCEA9800ED4307 /* LaunchScreen.storyboard in Resources */,
+				30BE52F22FCCEA9800ED4307 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		671DB1B6F49595FF2A281C8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-197MirelithWave-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30BE511E2FCCE0B900ED4307 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BE52C12FCCEA9800ED4307 /* EmergencyInfoCatalog.swift in Sources */,
+				30BE52C22FCCEA9800ED4307 /* PackingTemplateCatalog.swift in Sources */,
+				30BE52C32FCCEA9800ED4307 /* TimeZoneCatalog.swift in Sources */,
+				30BE52C42FCCEA9800ED4307 /* Achievement.swift in Sources */,
+				30BE52C52FCCEA9800ED4307 /* ChecklistItem.swift in Sources */,
+				30BE52C62FCCEA9800ED4307 /* CurrencyRate.swift in Sources */,
+				30BE52C72FCCEA9800ED4307 /* Destination.swift in Sources */,
+				30BE52C82FCCEA9800ED4307 /* TripBundle.swift in Sources */,
+				30BE52C92FCCEA9800ED4307 /* AppStorage.swift in Sources */,
+				30BE52CA2FCCEA9800ED4307 /* TripExportService.swift in Sources */,
+				30BE52CB2FCCEA9800ED4307 /* AppExternalLink.swift in Sources */,
+				30BE52CC2FCCEA9800ED4307 /* FeedbackManager.swift in Sources */,
+				30BE52CD2FCCEA9800ED4307 /* NotificationNames.swift in Sources */,
+				30BE52CE2FCCEA9800ED4307 /* ShakeEffect.swift in Sources */,
+				30BE52CF2FCCEA9800ED4307 /* AchievementsView.swift in Sources */,
+				30BE52D02FCCEA9800ED4307 /* ChecklistView.swift in Sources */,
+				30BE52D12FCCEA9800ED4307 /* EssentialsView.swift in Sources */,
+				30BE52D22FCCEA9800ED4307 /* EssentialsViewModel.swift in Sources */,
+				30BE52D32FCCEA9800ED4307 /* HomeView.swift in Sources */,
+				30BE52D42FCCEA9800ED4307 /* HomeViewModel.swift in Sources */,
+				30BE52D52FCCEA9800ED4307 /* OnboardingView.swift in Sources */,
+				30BE52D62FCCEA9800ED4307 /* SettingsView.swift in Sources */,
+				30BE52D72FCCEA9800ED4307 /* EmergencyInfoView.swift in Sources */,
+				30BE52D82FCCEA9800ED4307 /* TravelToolsContainerView.swift in Sources */,
+				30BE52D92FCCEA9800ED4307 /* UnitConverterView.swift in Sources */,
+				30BE52DA2FCCEA9800ED4307 /* TripBudgetSection.swift in Sources */,
+				30BE52DB2FCCEA9800ED4307 /* TripDetailView.swift in Sources */,
+				30BE52DC2FCCEA9800ED4307 /* TripDocumentsSection.swift in Sources */,
+				30BE52DD2FCCEA9800ED4307 /* TripItinerarySection.swift in Sources */,
+				30BE52DE2FCCEA9800ED4307 /* TripPackingSection.swift in Sources */,
+				30BE52DF2FCCEA9800ED4307 /* WishlistView.swift in Sources */,
+				30BE52E02FCCEA9800ED4307 /* WishlistViewModel.swift in Sources */,
+				30BE52E12FCCEA9800ED4307 /* CustomCells.swift in Sources */,
+				30BE52E22FCCEA9800ED4307 /* AppCard.swift in Sources */,
+				30BE52E32FCCEA9800ED4307 /* AppDepthStyle.swift in Sources */,
+				30BE52E42FCCEA9800ED4307 /* AchievementBannerView.swift in Sources */,
+				30BE52E52FCCEA9800ED4307 /* AppBackgroundView.swift in Sources */,
+				30BE52E62FCCEA9800ED4307 /* CustomTabBar.swift in Sources */,
+				30BE52E72FCCEA9800ED4307 /* PrimaryButton.swift in Sources */,
+				30BE52E82FCCEA9800ED4307 /* ShareSheet.swift in Sources */,
+				30BE52E92FCCEA9800ED4307 /* SuccessOverlay.swift in Sources */,
+				30BE52EA2FCCEA9800ED4307 /* AppDelegate.swift in Sources */,
+				30BE52EB2FCCEA9800ED4307 /* ContentView.swift in Sources */,
+				30BE52EC2FCCEA9800ED4307 /* SceneDelegate.swift in Sources */,
+				30BE52ED2FCCEA9800ED4307 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		30BE52BB2FCCEA9800ED4307 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30BE52BA2FCCEA9800ED4307 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30BE52BD2FCCEA9800ED4307 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30BE52BC2FCCEA9800ED4307 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		30BE51362FCCE0BB00ED4307 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A21ABBB2790311ABB29A594 /* Pods-197MirelithWave.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +564,40 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 197MirelithWave/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mirelith Wave";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-97MirelithWave";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lua.m1r3l1thw8v3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		30BE51372FCCE0BB00ED4307 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488A353B176D06C3718A3F3E /* Pods-197MirelithWave.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +605,34 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 197MirelithWave/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mirelith Wave";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-97MirelithWave";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lua.m1r3l1thw8v3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
